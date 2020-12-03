@@ -37,7 +37,7 @@ def solve_part_2(expense_list, solution_printer):
 
 
 def run():
-    solution_printer = SolutionPrinter(1)
+    solution_printer = SolutionPrinter(2)
     expense_list = read_file_to_expense_list('input')
     solve_part_1(expense_list, solution_printer)
     solve_part_2(expense_list, solution_printer)
