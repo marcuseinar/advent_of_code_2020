@@ -50,7 +50,7 @@ def solve_part_2(boarding_cards_list, solution_printer):
 
 
 def run():
-    solution_printer = SolutionPrinter(3)
+    solution_printer = SolutionPrinter(5)
     boarding_cards_list = read_file_to_boarding_card_list('input')
     solve_part_1(boarding_cards_list, solution_printer)
     solve_part_2(boarding_cards_list, solution_printer)

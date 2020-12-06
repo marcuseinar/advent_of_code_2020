@@ -26,7 +26,7 @@ def read_file_to_slope_section_map(file_name):
 def solve_part_1(slope_section_map, solution_printer):
     trajectory_calculator = TrajectoryCalculator(slope_section_map)
     num_collisions = trajectory_calculator.calculate_collisions(3, 1)
-    solution_printer.add_part_solution(2, num_collisions)
+    solution_printer.add_part_solution(1, num_collisions)
 
 
 def solve_part_2(slope_section_map, solution_printer):

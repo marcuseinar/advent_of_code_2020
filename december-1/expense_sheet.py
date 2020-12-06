@@ -25,7 +25,7 @@ def find_3_numbers_with_sum(expense_list, sum_to_find):
 
 
 def solve_part_1(expense_list, solution_printer):
-    factor1, factor2 = find_2_numbers_with_sum(expense_list,2020)
+    factor1, factor2 = find_2_numbers_with_sum(expense_list, 2020)
     product = factor1 * factor2
     solution_printer.add_part_solution(1, product)
 
@@ -37,7 +37,7 @@ def solve_part_2(expense_list, solution_printer):
 
 
 def run():
-    solution_printer = SolutionPrinter(2)
+    solution_printer = SolutionPrinter(1)
     expense_list = read_file_to_expense_list('input')
     solve_part_1(expense_list, solution_printer)
     solve_part_2(expense_list, solution_printer)

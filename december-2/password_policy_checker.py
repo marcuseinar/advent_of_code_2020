@@ -47,7 +47,7 @@ def solve_part_2(password_entries_list, solution_printer):
 
 
 def run():
-    solution_printer = SolutionPrinter(1)
+    solution_printer = SolutionPrinter(2)
     password_entries_list = read_file_get_password_entries_list('input')
     solve_part_1(password_entries_list, solution_printer)
     solve_part_2(password_entries_list, solution_printer)

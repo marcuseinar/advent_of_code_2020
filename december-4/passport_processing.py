@@ -97,7 +97,7 @@ def solve_part_2(credentials_list, solution_printer):
 
 
 def run():
-    solution_printer = SolutionPrinter(3)
+    solution_printer = SolutionPrinter(4)
     passport_credentials_list = read_file_to_passport_credentials_list('input')
     solve_part_1(passport_credentials_list, solution_printer)
     solve_part_2(passport_credentials_list, solution_printer)
