@@ -37,7 +37,7 @@ def solve_part_2(initial_numbers, solution_printer):
 
 
 def run():
-    solution_printer = SolutionPrinter(14)
+    solution_printer = SolutionPrinter(15)
     initial_numbers = read_file_to_initial_numbers('input')
     solve_part_1(initial_numbers, solution_printer)
     solve_part_2(initial_numbers, solution_printer)
